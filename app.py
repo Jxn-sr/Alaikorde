@@ -65,7 +65,7 @@ st.markdown("""
 @st.cache_resource
 def load_model():
     """Load the trained Iris classification model"""
-    with open('C:/Users/SCI & TECH/Desktop/asfd/Model Training.pkl', 'rb') as f:
+    with open('/asfd/Model Training.pkl', 'rb') as f:
         model = joblib.load(f)
     return model
 
